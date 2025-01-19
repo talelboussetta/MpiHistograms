@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analysis MPI PROMOTION 2024/2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Data Analysis MPI PROMOTION 2024/2025</h1>
+</header>
+
+<div class="container">
+    <div class="subject-card">
+        <h3>Optics</h3>
+        <button onclick="showFullscreen('optics', 'ds')">DS</button>
+        <button onclick="showFullscreen('optics', 'exam')">Exam</button>
+    </div>
+    <div class="subject-card">
+        <h3>Analyse</h3>
+        <button onclick="showFullscreen('analyse', 'ds')">DS</button>
+        <button onclick="showFullscreen('analyse', 'exam')">Exam</button>
+    </div>
+    <div class="subject-card">
+        <h3>Algèbre</h3>
+        <button onclick="showFullscreen('algebre', 'ds')">DS</button>
+        <button onclick="showFullscreen('algebre', 'exam')">Exam</button>
+    </div>
+    <div class="subject-card">
+        <h3>Mécanique</h3>
+        <button onclick="showFullscreen('mecanique', 'ds')">DS</button>
+        <button onclick="showFullscreen('mecanique', 'exam')">Exam</button>
+    </div>
+    <div class="subject-card">
+        <h3>Droit</h3>
+        <button onclick="showFullscreen('droit', 'ds')">DS</button>
+        <button onclick="showFullscreen('droit', 'exam')">Exam</button>
+    </div>
+    <div class="subject-card">
+        <h3>Français</h3>
+        <button onclick="showFullscreen('francais', 'ds')">DS</button>
+        <button onclick="showFullscreen('francais', 'exam')">Exam</button>
+    </div>
+    <div class="subject-card">
+        <h3>Anglais</h3>
+        <button onclick="showFullscreen('anglais', 'ds')">DS</button>
+        <button onclick="showFullscreen('anglais', 'exam')">Exam</button>
+    </div>
+    <div class="subject-card">
+        <h3>Electrostatique</h3>
+        <button onclick="showFullscreen('electrostatique', 'ds')">DS</button>
+        <button onclick="showFullscreen('electrostatique', 'exam')">Exam</button>
+    </div>
+    <div class="subject-card">
+        <h3>Circuit</h3>
+        <button onclick="showFullscreen('circuit', 'ds')">DS</button>
+        <button onclick="showFullscreen('circuit', 'exam')">Exam</button>
+    </div>
+    <div class="subject-card">
+        <h3>Algorithm</h3>
+        <button onclick="showFullscreen('algorithm', 'ds')">DS</button>
+        <button onclick="showFullscreen('algorithm', 'exam')">Exam</button>
+    </div>
+    <div class="subject-card">
+        <h3>Programmation</h3>
+        <button onclick="showFullscreen('programmation', 'ds')">DS</button>
+        <button onclick="showFullscreen('programmation', 'exam')">Exam</button>
+    </div>
+</div>
+
+<div id="fullscreen-view" class="fullscreen">
+    <h2 id="fullscreen-title"></h2>
+    <img id="fullscreen-image" src="" alt="Histogram">
+    <button onclick="goBack()">Back</button>
+</div>
+
+<div id="tooltip" class="tooltip"></div>
+
+<footer>
+    <p>Realized by Boussetta Talel © 2025</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
